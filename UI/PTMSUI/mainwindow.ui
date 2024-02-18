@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>963</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1680</x>
+      <y>850</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>新建任务</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>820</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>更新固件</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>820</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>重启</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>820</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>更新程序</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>820</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>刷新机器信息</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>820</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>删除程序</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>30</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>全部设备</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>30</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>分组设备</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>30</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>单台设备</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>30</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>1680</x>
+      <y>820</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 11pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1470</x>
+      <y>820</y>
+      <width>211</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>发布任务自建任务</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>820</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>命令行执行</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>870</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>蜂鸣</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>820</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>提高背光</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>341</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 26pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>实验室集中监控系统</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>1470</x>
+      <y>100</y>
+      <width>421</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>820</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>局域网</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>30</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 14pt &quot;微软雅黑 Light&quot;;</string>
+    </property>
+    <property name="text">
+     <string>排序显示</string>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>1361</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1351</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>IP</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MAC地址</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>型号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>机器码</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>固件版本</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CPU占用率</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>内存 B</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>/mnt/data/ 磁盘空间</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>HMIUI进程句柄</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>进程使用内存 MB</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>进程峰值内存 MB</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1351</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>IP</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MAC地址</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>型号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>机器码</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>固件版本</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CPU占用率</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>剩余内存 </string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>总内存</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>/mnt/data/磁盘剩余空间</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string> 磁盘总空间</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>HMIUI进程句柄</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>进程使用内存 MB</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>进程峰值内存 MB</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>页</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1351</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>IP</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MAC地址</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>型号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>机器码</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>固件版本</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CPU占用率</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>内存 B</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>/mnt/data/ 磁盘空间</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>HMIUI进程句柄</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>进程使用内存 MB</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>进程峰值内存 MB</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>页</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1351</width>
+        <height>701</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 25 10pt &quot;微软雅黑 Light&quot;;</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>IP</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>MAC地址</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>型号</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>机器码</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>固件版本</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>CPU占用率</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>内存 B</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>/mnt/data/ 磁盘空间</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>HMIUI进程句柄</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>进程使用内存 MB</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>进程峰值内存 MB</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

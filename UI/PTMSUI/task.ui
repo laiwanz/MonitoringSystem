@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Task</class>
+ <widget class="QWidget" name="Task">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1506</width>
+    <height>904</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>300</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>任务名字</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>740</y>
+     <width>191</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发布任务</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>90</y>
+     <width>751</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>任务</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>频道</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>型号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>类型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>次数</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>间隔</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>信息</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>520</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>执行次数</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>400</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>任务类型</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>640</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>执行间隔</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>90</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>频道</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>200</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设备型号</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>750</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>附加信息</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
